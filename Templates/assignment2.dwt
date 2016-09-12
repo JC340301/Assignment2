@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../css/assignment2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<table id="banner" title="Click here to return to homepage">
+ <td width="30%"><img src="../images/FRIAS Logo.jpg"/>
+ </td>
+ <td width="70%">
+  <h1>The Kids Place</h1>
+  <p>Where you get stuff for those damn kids!</p>
+ </td>
+</table>
+<table id="navbar">
+ <td>Products
+  <div>
+   <a>Beach Wear</a>
+   <a>Jeans</a>
+  </div>
+ </td>
+ <td>Cafe'</td>
+ <td>Events</td>
+ <td>Forms
+  <div>
+   <a>???</a>
+   <a>???</a>
+  </div>
+ </td>
+ <td>About Us
+  <div>
+   <a>Company Mission</a>
+   <a>About Us</a>
+  </div>
+ </td>
+ <td>Help
+  <div>
+   <a>FAQ</a>
+   <a>Services Page</a>
+   <a>Chat Service</a>
+  </div>
+ </td>
+</table>
+<div id="content">
+<!-- TemplateBeginEditable name="Content" -->
+Content
+<!-- TemplateEndEditable -->
+</div>
+<div id="footer">
+© 2016, FRIAS Pte Ltd. All Rights Reserved.
+</div>
+</body>
+</html>

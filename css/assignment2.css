@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+#banner {
+	background-color:#FFEBB1;
+	border:3px solid black;
+	margin:30px auto 25px auto;
+	width:700px;
+}
+#banner h1 {
+	font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size:72px;
+	margin:0px;
+	text-align:center;
+}
+#banner p {
+	font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	margin:0px;
+	text-align:center;
+}
+#banner img {
+	display:block;
+	width:60%;
+	height:100%;
+	margin:auto;
+}
+#banner td {
+	height:150px;
+}
+
+#navbar {
+	margin: 25px auto;
+	height:80px;
+	width:1280px;
+}
+#navbar td {
+	background-color:yellow;
+	border:3px solid black;
+	font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size:32px;
+	font-weight:bold;
+	text-align:center;
+	width:16%;
+}
+#navbar td:hover {
+	background-color:blue;
+	color:white;
+}
+#navbar td:hover div{
+	display:block;
+}
+#navbar div {
+	background-color:yellow;
+	color:black;
+	border:3px solid black;
+	display:none;
+	position:absolute;
+	width:197px;
+}
+#navbar a{
+	background-color:white;
+	display:block;	
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size:18px;
+	padding: 3px 18px;
+	text-align:start;
+}
+#navbar a:hover {
+	background-color:blue;
+	color:white;
+}
+
+#content {
+	margin: 25px auto;
+	width:1280px;
+}
+
+#footer {
+	border:1px solid black;
+	font-size:16px;
+	margin: 25px auto;
+	padding:5px;
+	text-align:center;
+	width:300px;
+}
