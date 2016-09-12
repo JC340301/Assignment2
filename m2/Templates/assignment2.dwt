@@ -12,14 +12,12 @@
 
 <body>
 <table id="banner" title="Click here to return to homepage">
- <td width="30%"><img src="../images/FRIAS Logo.jpg"/>
- </td>
- <td width="70%">
+ <td width="25%"><img src="../images/FRIAS Logo.gif"/></td>
+ <td width="75%">
   <h1>The Kids Place</h1>
   <p>Where you get stuff for those damn kids!</p>
  </td>
 </table>
-12345
 <table id="navbar">
  <td>Products
   <div>
@@ -49,11 +47,9 @@
   </div>
  </td>
 </table>
-<div id="content">
 <!-- TemplateBeginEditable name="Content" -->
 Content
 <!-- TemplateEndEditable -->
-</div>
 <div id="footer">
 © 2016, FRIAS Pte Ltd. All Rights Reserved.
 </div>

@@ -4,17 +4,16 @@
 #banner {
 	background-color:#FFEBB1;
 	border:3px solid black;
+	cursor:pointer;
 	margin:30px auto 25px auto;
 	width:700px;
 }
 #banner h1 {
-	font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	font-size:72px;
 	margin:0px;
 	text-align:center;
 }
 #banner p {
-	font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	margin:0px;
 	text-align:center;
 }
@@ -22,7 +21,7 @@
 	display:block;
 	width:60%;
 	height:100%;
-	margin:auto;
+	margin:0px 0px 0px auto;
 }
 #banner td {
 	height:150px;
@@ -36,7 +35,7 @@
 #navbar td {
 	background-color:yellow;
 	border:3px solid black;
-	font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	cursor:pointer;
 	font-size:32px;
 	font-weight:bold;
 	text-align:center;
@@ -59,8 +58,7 @@
 }
 #navbar a{
 	background-color:white;
-	display:block;	
-	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	display:block;
 	font-size:18px;
 	padding: 3px 18px;
 	text-align:start;
@@ -70,9 +68,21 @@
 	color:white;
 }
 
-#content {
-	margin: 25px auto;
-	width:1280px;
+#homepage{
+	background-image:url(../images/Beach%20wear.png);
+	border:1px solid black;
+	height:369px;
+	margin:auto;
+	width:679px;
+}
+#homepage h1{
+	margin:280px auto;
+	display:block;
+	background-color:#FFEBB1;
+	border:3px dotted black;
+	padding:10px;
+	text-align:center;
+	width:400px;
 }
 
 #footer {
@@ -83,3 +93,38 @@
 	text-align:center;
 	width:300px;
 }
+
+.content {
+	margin: 25px auto;
+	min-height:300px;
+	text-align:center;
+	width:1280px;
+}
+.content h1 {
+	color: #1C40B1;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif; 
+}
+.content h2 {
+}
+
+.catalog{
+	margin:auto;
+}
+.catalog td {
+	width:250px;
+	height:400px;
+	padding:16px 16px;
+	cursor:pointer;
+}
+.catalog td:hover {
+	background-color:#FFEBB1;
+	color:blue;
+	font-size:120%;
+}
+.catalog img { 
+	height:6cm;
+	width:5cm; 
+	border:1px solid black;
+	border-radius:2em;
+}
+
