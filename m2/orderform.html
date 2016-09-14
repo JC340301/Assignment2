@@ -1,0 +1,116 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/assignment2.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Order Form</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link href="css/assignment2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<table id="banner" title="Click here to return to homepage">
+ <td width="25%"><img src="images/FRIAS Logo.gif"/></td>
+ <td width="75%">
+  <h1>The Kids Place</h1>
+  <p>Where you get stuff for those damn kids!</p>
+ </td>
+</table>
+<table id="navbar">
+ <td>Products
+  <div>
+   <a>Beach Wear</a>
+   <a>Jeans</a>
+  </div>
+ </td>
+ <td>Cafe'</td>
+ <td>Events</td>
+ <td>Forms
+  <div>
+   <a>???</a>
+   <a>???</a>
+  </div>
+ </td>
+ <td>About Us
+  <div>
+   <a>Company Mission</a>
+   <a>About Us</a>
+  </div>
+ </td>
+ <td>Help
+  <div>
+   <a>FAQ</a>
+   <a>Services Page</a>
+   <a>Chat Service</a>
+  </div>
+ </td>
+</table>
+<!-- InstanceBeginEditable name="Content" -->
+<div class="content">
+<h1> Order Form </h1>
+<form name="form1" method="post" action="">
+<form name="Order_Form" method="post" action="">
+	First Name:<br>
+     <input type="text" name="fName" required><br>
+    Sur Name:<br>
+     <input type="text" name="sName"><br>
+    E-mail:<br>
+     <input type="email" name="e-mail"><br>
+    Phone No.:<br>
+     <input type="number" name="phoneNo." required><br>
+    Address:<br>
+     <input type="tel" name="address" required><br>
+     
+  <table width="200" border="1">
+  <tr>
+  	<th>Category</th>
+    <th>Product</th>
+    <th>Quantity</th>
+    <th>Price</th>
+    <th>Sub Total</th>
+  </tr>
+  <tr>
+    <td>
+    	<select>
+        <option selected disabled select>Select a category</option>
+        <option>Beach wear</option>
+        <option>Jeans</option>
+        </select>
+    </td>
+    <td>
+    	<select>
+        <option selected disabled select>Select a product</option>
+        </select>
+    </td>
+    <td><input type="text" name= "product" required></td>
+    <td><input type="number" name= "quantity" required></td>
+    <td><input type="number" name= "subtotal"></td>
+   </tr>
+   </table>
+   
+   <p>&nbsp;</p>
+   
+   <table width="200" border="0">
+   <tr>
+    <th>Final Total</th>
+    <td>&nbsp;</td>
+   </tr>
+   </table>
+
+   <table width="200" border="0">
+   <tr>
+    <td><button onclick="location.href='https://www.paypal.com/'"><input name="Submit Order" type="submit" value="Submit Order"></td>
+    <td><input name="Clear Form" type="reset" value="Clear Order"></td>
+   </tr>
+   </table>
+</form>
+
+</div>
+<!-- InstanceEndEditable -->
+<div id="footer">
+© 2016, FRIAS Pte Ltd. All Rights Reserved.
+</div>
+</body>
+<!-- InstanceEnd --></html>
