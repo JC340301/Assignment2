@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../css/assignment2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="product">
+<!-- TemplateBeginEditable name="Product" -->
+<img src="images/Beach wear boy shorts.png"/>
+<div>
+ <h1>Product Name</h1>
+ <p>Item Description</p>
+ <h3>Available sizes:</h3>
+ <p>XS, S, M, L, XL</p>
+ <h3>Available colours:</h3>
+ <p>Orange, Red, Green, Yellow</p>
+ <h2>item Price</h2>
+</div>
+<!-- TemplateEndEditable -->
+</div>
+</body>
+</html>

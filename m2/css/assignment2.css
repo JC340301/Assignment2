@@ -58,10 +58,12 @@
 }
 #navbar a{
 	background-color:white;
+	color:black;
 	display:block;
 	font-size:18px;
 	padding: 3px 18px;
 	text-align:start;
+	text-decoration:none;
 }
 #navbar a:hover {
 	background-color:blue;
@@ -70,22 +72,35 @@
 
 #homepage{
 	background-image:url(../images/Beach%20wear.png);
-	border:1px solid black;
+	border:3px solid black;
 	height:369px;
 	margin:auto;
 	width:679px;
 }
 #homepage h1{
-	margin:280px auto;
-	display:block;
 	background-color:#FFEBB1;
 	border:3px dotted black;
+	margin:280px auto 0 auto;
 	padding:10px;
 	text-align:center;
-	width:400px;
+	width:500px;
+}
+
+
+#contact-us {
+	background-color:white;
+	border:3px solid black;
+	margin:auto;
+	padding:5px;
+	text-align:start;
+}
+#contact-us td {
+	border:1px dotted black;
+	padding:10px;
 }
 
 #footer {
+	background-color:#FFEBB1;
 	border:1px solid black;
 	font-size:16px;
 	margin: 25px auto;
@@ -95,36 +110,78 @@
 }
 
 .content {
-	margin: 25px auto;
+	background-color:#FFEBB1;
+	border:1px solid black;
+	margin:25px auto;
 	min-height:300px;
-	text-align:center;
-	width:1280px;
+	width:80%;
 }
 .content h1 {
-	color: #1C40B1;
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif; 
+	color:#1C40B1;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	padding:5px;
+	text-align:center;
+	text-shadow:-2px -2px 0 black, -2px 2px 0 black, 2px -2px 0 black, 2px 2px 0 black;
 }
 .content h2 {
+	color:yellow;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	text-align:center;
+	text-shadow:-1px -1px 0 black, -1px 1px 0 black, 1px -1px 0 black, 1px 1px 0 black;
+}
+.content img {
+	display:block;
+	margin:auto
+}
+.content form {
+	background-color:#FFEBB1;
+	padding:20px 10px;
+}
+.content table {
+	margin:auto;
+}
+.content form td{
+	padding:2px 5px;
 }
 
-.catalog{
+.catalog {
 	margin:auto;
 }
 .catalog td {
-	width:250px;
+	cursor:pointer;
 	height:400px;
 	padding:16px 16px;
-	cursor:pointer;
+	text-align:center;
+	width:250px;
 }
 .catalog td:hover {
-	background-color:#FFEBB1;
+	background-color:#3FFCFF;
 	color:blue;
 	font-size:120%;
 }
 .catalog img { 
-	height:6cm;
-	width:5cm; 
 	border:1px solid black;
 	border-radius:2em;
+	margin:auto;
+	height:6cm;
+	width:5cm;
 }
 
+.product img {
+	float:left;
+	width:50%;
+}
+.product div {
+	float:right;
+	width:50%;
+	text-align:start;
+}
+.product h1 {
+	text-decoration:underline;
+	font-weight:bold;
+}
+.product h2 {
+	color:red;
+	font-size:36px;
+	font-weight:bold;
+}

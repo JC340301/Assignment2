@@ -10,8 +10,8 @@
 <link href="../css/assignment2.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
-<table id="banner" title="Click here to return to homepage">
+<body background="../images/Background.png">
+<table id="banner" title="Click here to return to homepage" onclick="location.href='index.html'">
  <td width="25%"><img src="../images/FRIAS Logo.gif"/></td>
  <td width="75%">
   <h1>The Kids Place</h1>
@@ -21,29 +21,24 @@
 <table id="navbar">
  <td>Products
   <div>
-   <a>Beach Wear</a>
-   <a>Jeans</a>
+   <a href="../productlist1.html">Beachwear</a>
+   <a href="../productlist2.html">Jeans</a>
   </div>
  </td>
  <td>Cafe'</td>
- <td>Events</td>
+ <td onclick="location.href='events.html'">Events</td>
  <td>Forms
   <div>
-   <a>???</a>
-   <a>???</a>
+   <a>Order Form</a>
+   <a onclick="location.href='feedback.html'">Feedback Form</a>
   </div>
  </td>
- <td>About Us
-  <div>
-   <a>Company Mission</a>
-   <a>About Us</a>
-  </div>
- </td>
+ <td onclick="location.href='aboutus.html'">About Us</td>
  <td>Help
   <div>
-   <a>FAQ</a>
-   <a>Services Page</a>
-   <a>Chat Service</a>
+   <a href="../faq.html">FAQ</a>
+   <a href="../services.html">Services</a>
+   <a href="../contactus.html">Contact Us</a>
   </div>
  </td>
 </table>
