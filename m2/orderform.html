@@ -10,9 +10,9 @@
 <link href="css/assignment2.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
-<table id="banner" title="Click here to return to homepage">
- <td width="25%"><img src="images/FRIAS Logo.gif"/></td>
+<body background="images/Background.png">
+<table id="banner" title="Click here to return to homepage" onclick="location.href='index.html'">
+ <td width="25%"><img src="images/FRIAS%20Logo.gif"/></td>
  <td width="75%">
   <h1>The Kids Place</h1>
   <p>Where you get stuff for those damn kids!</p>
@@ -21,29 +21,24 @@
 <table id="navbar">
  <td>Products
   <div>
-   <a>Beach Wear</a>
-   <a>Jeans</a>
+   <a href="productlist1.html">Beachwear</a>
+   <a href="productlist2.html">Jeans</a>
   </div>
  </td>
  <td>Cafe'</td>
- <td>Events</td>
+ <td onclick="location.href='events.html'">Events</td>
  <td>Forms
   <div>
-   <a>???</a>
-   <a>???</a>
+   <a onclick="location.href='orderform.html'">Order Form</a>
+   <a onclick="location.href='feedback.html'">Feedback Form</a>
   </div>
  </td>
- <td>About Us
-  <div>
-   <a>Company Mission</a>
-   <a>About Us</a>
-  </div>
- </td>
+ <td onclick="location.href='aboutus.html'">About Us</td>
  <td>Help
   <div>
-   <a>FAQ</a>
-   <a>Services Page</a>
-   <a>Chat Service</a>
+   <a href="faq.html">FAQ</a>
+   <a href="services.html">Services</a>
+   <a href="contactus.html">Contact Us</a>
   </div>
  </td>
 </table>
@@ -66,10 +61,11 @@
 <center><table width="100%" border="1">
   <tr>
     <th width='50%'>Product</th>
-    <th width='15%'>Size</th>
+    <th width='10%'>Size</th>
+    <th widht='10%'>Color</th>
     <th width='10%'>Quantity</th>
     <th width='10%'>Price</th>
-    <th width='15%'>Sub Total</th>
+    <th width='10%'>Sub Total</th>
   </tr>
   
    <tr>
@@ -82,6 +78,16 @@
             <option>Medium</option>
             <option>Large</option>
             <option>Extra Large</option>
+        </select>
+    </td>
+    <td>
+    <select>
+        	<option selected disabled>Select Color</option>
+        	<option>Red</option>
+            <option>Orange</option>
+            <option>Yellow</option>
+            <option>Green</option>
+            <option>Blue</option>
         </select>
     </td>
     <td><input id="q1" type="number" oninput="subTotal()" /></td>
@@ -101,6 +107,16 @@
             <option>Extra Large</option>
         </select>
     </td>
+    <td>
+    <select>
+        	<option selected disabled>Select Color</option>
+        	<option>Red</option>
+            <option>Orange</option>
+            <option>Yellow</option>
+            <option>Green</option>
+            <option>Blue</option>
+        </select>
+    </td>
     <td><input id="q2" type="number" oninput="subTotal()" /></td>
     <td><input disabled id="price2" type="text" oninput="subTotal()" value=38.95 /></td>
     <td><input disabled id="result2" /></td>
@@ -116,6 +132,16 @@
             <option>Medium</option>
             <option>Large</option>
             <option>Extra Large</option>
+        </select>
+    </td>
+    <td>
+    <select>
+        	<option selected disabled>Select Color</option>
+        	<option>Red</option>
+            <option>Orange</option>
+            <option>Yellow</option>
+            <option>Green</option>
+            <option>Blue</option>
         </select>
     </td>
     <td><input id="q3" type="number" oninput="subTotal()" /></td>
@@ -135,6 +161,16 @@
             <option>Extra Large</option>
         </select>
     </td>
+    <td>
+    <select>
+        	<option selected disabled>Select Color</option>
+        	<option>Red</option>
+            <option>Orange</option>
+            <option>Yellow</option>
+            <option>Green</option>
+            <option>Blue</option>
+        </select>
+    </td>
     <td><input id="q4" type="number" oninput="subTotal()" /></td>
     <td><input disabled id="price4" type="text" oninput="subTotal()" value=24.95 /></td>
     <td><input disabled id="result4" /></td>
@@ -150,6 +186,16 @@
             <option>Medium</option>
             <option>Large</option>
             <option>Extra Large</option>
+        </select>
+    </td>
+    <td>
+    <select>
+        	<option selected disabled>Select Color</option>
+        	<option>Red</option>
+            <option>Orange</option>
+            <option>Yellow</option>
+            <option>Green</option>
+            <option>Blue</option>
         </select>
     </td>
     <td><input id="q5" type="number" oninput="subTotal()" /></td>
@@ -169,6 +215,16 @@
             <option>Extra Large</option>
         </select>
     </td>
+    <td>
+    <select>
+        	<option selected disabled>Select Color</option>
+        	<option>Red</option>
+            <option>Orange</option>
+            <option>Yellow</option>
+            <option>Green</option>
+            <option>Blue</option>
+        </select>
+    </td>
     <td><input id="q6" type="number" oninput="subTotal()" /></td>
     <td><input disabled id="price6" type="text" oninput="subTotal()" value=32.95 /></td>
     <td><input disabled id="result6" /></td>
@@ -184,6 +240,16 @@
             <option>Medium</option>
             <option>Large</option>
             <option>Extra Large</option>
+        </select>
+    </td>
+    <td>
+    <select>
+        	<option selected disabled>Select Color</option>
+        	<option>Red</option>
+            <option>Orange</option>
+            <option>Yellow</option>
+            <option>Green</option>
+            <option>Blue</option>
         </select>
     </td>
     <td><input id="q7" type="number" oninput="subTotal()" /></td>
@@ -203,6 +269,16 @@
             <option>Extra Large</option>
         </select>
     </td>
+    <td>
+    <select>
+        	<option selected disabled>Select Color</option>
+        	<option>Red</option>
+            <option>Orange</option>
+            <option>Yellow</option>
+            <option>Green</option>
+            <option>Blue</option>
+        </select>
+    </td>
     <td><input id="q8" type="number" oninput="subTotal()" /></td>
     <td><input disabled id="price8" type="text" oninput="subTotal()" value=45.95 /></td>
     <td><input disabled id="result8" /></td>
@@ -218,6 +294,16 @@
             <option>Medium</option>
             <option>Large</option>
             <option>Extra Large</option>
+        </select>
+    </td>
+    <td>
+    <select>
+        	<option selected disabled>Select Color</option>
+        	<option>Red</option>
+            <option>Orange</option>
+            <option>Yellow</option>
+            <option>Green</option>
+            <option>Blue</option>
         </select>
     </td>
     <td><input id="q9" type="number" oninput="subTotal()" /></td>
@@ -237,6 +323,16 @@
             <option>Extra Large</option>
         </select>
     </td>
+    <td>
+    <select>
+        	<option selected disabled>Select Color</option>
+        	<option>Red</option>
+            <option>Orange</option>
+            <option>Yellow</option>
+            <option>Green</option>
+            <option>Blue</option>
+        </select>
+    </td>
     <td><input id="q10" type="number" oninput="subTotal()" /></td>
     <td><input disabled id="price10" type="text" oninput="subTotal()" value=59.95 /></td>
     <td><input disabled id="result10" /></td>
@@ -252,6 +348,16 @@
             <option>Medium</option>
             <option>Large</option>
             <option>Extra Large</option>
+        </select>
+    </td>
+    <td>
+    <select>
+        	<option selected disabled>Select Color</option>
+        	<option>Red</option>
+            <option>Orange</option>
+            <option>Yellow</option>
+            <option>Green</option>
+            <option>Blue</option>
         </select>
     </td>
     <td><input id="q11" type="number" oninput="subTotal()" /></td>
@@ -271,6 +377,16 @@
             <option>Extra Large</option>
         </select>
     </td>
+    <td>
+    <select>
+        	<option selected disabled>Select Color</option>
+        	<option>Red</option>
+            <option>Orange</option>
+            <option>Yellow</option>
+            <option>Green</option>
+            <option>Blue</option>
+        </select>
+    </td>
     <td><input id="q12" type="number" oninput="subTotal()" /></td>
     <td><input disabled id="price12" type="text" oninput="subTotal()" value=59.95 /></td>
     <td><input disabled id="result12" /></td>
@@ -286,6 +402,16 @@
             <option>Medium</option>
             <option>Large</option>
             <option>Extra Large</option>
+        </select>
+    </td>
+    <td>
+    <select>
+        	<option selected disabled>Select Color</option>
+        	<option>Red</option>
+            <option>Orange</option>
+            <option>Yellow</option>
+            <option>Green</option>
+            <option>Blue</option>
         </select>
     </td>
     <td><input id="q13" type="number" oninput="subTotal()" /></td>
@@ -305,6 +431,16 @@
             <option>Extra Large</option>
         </select>
     </td>
+    <td>
+    <select>
+        	<option selected disabled>Select Color</option>
+        	<option>Red</option>
+            <option>Orange</option>
+            <option>Yellow</option>
+            <option>Green</option>
+            <option>Blue</option>
+        </select>
+    </td>
     <td><input id="q14" type="number" oninput="subTotal()" /></td>
     <td><input disabled id="price14" type="text" oninput="subTotal()" value=65.95 /></td>
     <td><input disabled id="result14" /></td>
@@ -320,6 +456,16 @@
             <option>Medium</option>
             <option>Large</option>
             <option>Extra Large</option>
+        </select>
+    </td>
+    <td>
+    <select>
+        	<option selected disabled>Select Color</option>
+        	<option>Red</option>
+            <option>Orange</option>
+            <option>Yellow</option>
+            <option>Green</option>
+            <option>Blue</option>
         </select>
     </td>
     <td><input id="q15" type="number" oninput="subTotal()" /></td>
@@ -339,12 +485,23 @@
             <option>Extra Large</option>
         </select>
     </td>
+    <td>
+    <select>
+        	<option selected disabled>Select Color</option>
+        	<option>Red</option>
+            <option>Orange</option>
+            <option>Yellow</option>
+            <option>Green</option>
+            <option>Blue</option>
+        </select>
+    </td>
     <td><input id="q16" type="number" oninput="subTotal()" /></td>
     <td><input disabled id="price16" type="text" oninput="subTotal()" value=59.95 /></td>
     <td><input disabled id="result16" /></td>
   </tr>
 
   <tr>
+    <td></th>
     <td></th>
     <td></th>
     <td></th>
