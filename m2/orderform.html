@@ -48,12 +48,12 @@
  </td>
 </table>
 <!-- InstanceBeginEditable name="Content" -->
+<script src="order-form.js"></script>
 <div class="content">
 <h1> Order Form </h1>
-<form name="form1" method="post" action="">
 <form name="Order_Form" method="post" action="">
 	First Name:<br>
-     <input type="text" name="fName" required><br>
+     <input type="text" name="fName"><br>
     Sur Name:<br>
      <input type="text" name="sName"><br>
     E-mail:<br>
@@ -63,50 +63,308 @@
     Address:<br>
      <input type="tel" name="address" required><br>
      
-  <table width="200" border="1">
+<center><table width="100%" border="1">
   <tr>
-  	<th>Category</th>
-    <th>Product</th>
-    <th>Quantity</th>
-    <th>Price</th>
-    <th>Sub Total</th>
+    <th width='50%'>Product</th>
+    <th width='15%'>Size</th>
+    <th width='10%'>Quantity</th>
+    <th width='10%'>Price</th>
+    <th width='15%'>Sub Total</th>
   </tr>
+  
+   <tr>
+  	<td>Boys Skull Shorts</td>
+    <td>
+    	<select>
+        	<option selected disabled>Select Size</option>
+        	<option>Extra Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>Extra Large</option>
+        </select>
+    </td>
+    <td><input id="q1" type="number" oninput="subTotal()" /></td>
+    <td><input disabled id="price1" type="text" oninput="subTotal()" value=24.95 /></td>
+    <td><input disabled id="result1" /></td>
+    </tr>
+  
+    <tr>
+  	<td>Boys Skull Vest</td>
+    <td>
+    	<select>
+        	<option selected disabled>Select Size</option>
+        	<option>Extra Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>Extra Large</option>
+        </select>
+    </td>
+    <td><input id="q2" type="number" oninput="subTotal()" /></td>
+    <td><input disabled id="price2" type="text" oninput="subTotal()" value=38.95 /></td>
+    <td><input disabled id="result2" /></td>
+    </tr>    
+  
+    <tr>
+  	<td>Boys Skateboard Vest</td>
+    <td>
+    	<select>
+        	<option selected disabled>Select Size</option>
+        	<option>Extra Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>Extra Large</option>
+        </select>
+    </td>
+    <td><input id="q3" type="number" oninput="subTotal()" /></td>
+    <td><input disabled id="price3" type="text" oninput="subTotal()" value=38.95 /></td>
+    <td><input disabled id="result3" /></td>
+    </tr>
+  
+    <tr>
+  	<td>Boys Sub Shorts</td>
+    <td>
+    	<select>
+        	<option selected disabled>Select Size</option>
+        	<option>Extra Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>Extra Large</option>
+        </select>
+    </td>
+    <td><input id="q4" type="number" oninput="subTotal()" /></td>
+    <td><input disabled id="price4" type="text" oninput="subTotal()" value=24.95 /></td>
+    <td><input disabled id="result4" /></td>
+    </tr>         
+ 
+    <tr>
+  	<td>Girls Stawberry Vest</td>
+    <td>
+    	<select>
+        	<option selected disabled>Select Size</option>
+        	<option>Extra Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>Extra Large</option>
+        </select>
+    </td>
+    <td><input id="q5" type="number" oninput="subTotal()" /></td>
+    <td><input disabled id="price5" type="text" oninput="subTotal()" value=25.00 /></td>
+    <td><input disabled id="result5" /></td>
+    </tr> 
+  
+    <tr>
+  	<td>Girls Spectacles Vest</td>
+    <td>
+    	<select>
+        	<option selected disabled>Select Size</option>
+        	<option>Extra Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>Extra Large</option>
+        </select>
+    </td>
+    <td><input id="q6" type="number" oninput="subTotal()" /></td>
+    <td><input disabled id="price6" type="text" oninput="subTotal()" value=32.95 /></td>
+    <td><input disabled id="result6" /></td>
+    </tr> 
+  
+    <tr>
+  	<td>Girls Feather Dress</td>
+    <td>
+    	<select>
+        	<option selected disabled>Select Size</option>
+        	<option>Extra Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>Extra Large</option>
+        </select>
+    </td>
+    <td><input id="q7" type="number" oninput="subTotal()" /></td>
+    <td><input disabled id="price7" type="text" oninput="subTotal()" value=45.95 /></td>
+    <td><input disabled id="result7" /></td>
+    </tr> 
+  
   <tr>
+  	<td>Girls Cheese Dress</td>
     <td>
     	<select>
-        <option selected disabled select>Select a category</option>
-        <option>Beach wear</option>
-        <option>Jeans</option>
+        	<option selected disabled>Select Size</option>
+        	<option>Extra Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>Extra Large</option>
         </select>
     </td>
+    <td><input id="q8" type="number" oninput="subTotal()" /></td>
+    <td><input disabled id="price8" type="text" oninput="subTotal()" value=45.95 /></td>
+    <td><input disabled id="result8" /></td>
+    </tr>
+  
+    <tr>
+  	<td>Denim Mike's Jeans (Boys)</td>
     <td>
     	<select>
-        <option selected disabled select>Select a product</option>
+        	<option selected disabled>Select Size</option>
+        	<option>Extra Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>Extra Large</option>
         </select>
     </td>
-    <td><input type="text" name= "product" required></td>
-    <td><input type="number" name= "quantity" required></td>
-    <td><input type="number" name= "subtotal"></td>
-   </tr>
-   </table>
-   
-   <p>&nbsp;</p>
-   
-   <table width="200" border="0">
-   <tr>
-    <th>Final Total</th>
-    <td>&nbsp;</td>
-   </tr>
-   </table>
+    <td><input id="q9" type="number" oninput="subTotal()" /></td>
+    <td><input disabled id="price9" type="text" oninput="subTotal()" value=59.95 /></td>
+    <td><input disabled id="result9" /></td>
+    </tr>
+  
+    <tr>
+  	<td>Denim Diego's Jeans (Boys)</td>
+    <td>
+    	<select>
+        	<option selected disabled>Select Size</option>
+        	<option>Extra Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>Extra Large</option>
+        </select>
+    </td>
+    <td><input id="q10" type="number" oninput="subTotal()" /></td>
+    <td><input disabled id="price10" type="text" oninput="subTotal()" value=59.95 /></td>
+    <td><input disabled id="result10" /></td>
+    </tr>
+  
+    <tr>
+  	<td>Denim Kurt's Jeans (Boys)</td>
+    <td>
+    	<select>
+        	<option selected disabled>Select Size</option>
+        	<option>Extra Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>Extra Large</option>
+        </select>
+    </td>
+    <td><input id="q11" type="number" oninput="subTotal()" /></td>
+    <td><input disabled id="price11" type="text" oninput="subTotal()" value=59.95 /></td>
+    <td><input disabled id="result11" /></td>
+    </tr>  
+  
+    <tr>
+  	<td>Denim Dali's Jeans (Girls)</td>
+    <td>
+    	<select>
+        	<option selected disabled>Select Size</option>
+        	<option>Extra Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>Extra Large</option>
+        </select>
+    </td>
+    <td><input id="q12" type="number" oninput="subTotal()" /></td>
+    <td><input disabled id="price12" type="text" oninput="subTotal()" value=59.95 /></td>
+    <td><input disabled id="result12" /></td>
+    </tr>   
 
-   <table width="200" border="0">
-   <tr>
-    <td><button onclick="location.href='https://www.paypal.com/'"><input name="Submit Order" type="submit" value="Submit Order"></td>
-    <td><input name="Clear Form" type="reset" value="Clear Order"></td>
-   </tr>
-   </table>
+	<tr>
+  	<td>Jimi Jeans</td>
+    <td>
+    	<select>
+        	<option selected disabled>Select Size</option>
+        	<option>Extra Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>Extra Large</option>
+        </select>
+    </td>
+    <td><input id="q13" type="number" oninput="subTotal()" /></td>
+    <td><input disabled id="price13" type="text" oninput="subTotal()" value=59.95 /></td>
+    <td><input disabled id="result13" /></td>
+  </tr>
+  
+    <tr>
+  	<td>Johnny Long T-Shirt</td>
+    <td>
+    	<select>
+        	<option selected disabled>Select Size</option>
+        	<option>Extra Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>Extra Large</option>
+        </select>
+    </td>
+    <td><input id="q14" type="number" oninput="subTotal()" /></td>
+    <td><input disabled id="price14" type="text" oninput="subTotal()" value=65.95 /></td>
+    <td><input disabled id="result14" /></td>
+  </tr>
+  
+  <tr>
+  	<td>Napoleo T-Shirt</td>
+    <td>
+    	<select>
+        	<option selected disabled>Select Size</option>
+        	<option>Extra Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>Extra Large</option>
+        </select>
+    </td>
+    <td><input id="q15" type="number" oninput="subTotal()" /></td>
+    <td><input disabled id="price15" type="text" oninput="subTotal()" value=30.00 /></td>
+    <td><input disabled id="result15" /></td>
+  </tr>
+  
+  <tr>
+  	<td>Pima T-Shirt</td>
+    <td>
+    	<select>
+        	<option selected disabled>Select Size</option>
+        	<option>Extra Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>Extra Large</option>
+        </select>
+    </td>
+    <td><input id="q16" type="number" oninput="subTotal()" /></td>
+    <td><input disabled id="price16" type="text" oninput="subTotal()" value=59.95 /></td>
+    <td><input disabled id="result16" /></td>
+  </tr>
+
+  <tr>
+    <td></th>
+    <td></th>
+    <td></th>
+    <td>Final Total</th>
+    <td><input disabled id="total"></td>
+  </tr>
+    
+</table></center>
+
+<p></p>
+
+<center><table width="50%" border="0" cellspacing="1" cellpadding="2">
+  <tr>
+    <td><input onclick="location.href='https://www.paypal.com/'" name="Submit" type="submit" value="Submit"></td>
+    <td><input name="Clear All" type="reset" value="Clear All"></td>
+  </tr>
+</table></center>
+
+
 </form>
-
 </div>
 <!-- InstanceEndEditable -->
 <div id="footer">
