@@ -46,17 +46,19 @@
 <script src="order-form.js"></script>
 <div class="content">
 <h1> Order Form </h1>
-<form name="Order_Form" method="post" action="">
-	First Name:<br>
-     <input type="text" name="fName"><br>
-    Sur Name:<br>
-     <input type="text" name="sName"><br>
-    E-mail:<br>
-     <input type="email" name="e-mail"><br>
-    Phone No.:<br>
-     <input type="number" name="phoneNo." required><br>
-    Address:<br>
-     <input type="tel" name="address" required><br>
+<form name="Order_Form" method="post" action="https://www.paypal.com/">
+	First Name:*<br>
+     <input type="text" name="fName" size="50" required><br>
+    Sur Name:*<br>
+     <input type="text" name="sName" size="50" required><br>
+    E-mail:*<br>
+     <input type="email" name="e-mail" size="50" required><br>
+    Phone No.:*<br>
+     <input type="number" name="phoneNo." size="20" required><br>
+    Address:*<br>
+     <input type="tel" name="address" size="60" required><br>
+     
+     <p></p>
      
 <center><table width="100%" border="1">
   <tr>
@@ -510,12 +512,15 @@
   </tr>
     
 </table></center>
+<p></p>
+
+<p><i>* = Required</i></p>
 
 <p></p>
 
 <center><table width="50%" border="0" cellspacing="1" cellpadding="2">
   <tr>
-    <td><input onclick="location.href='https://www.paypal.com/'" name="Submit" type="submit" value="Submit"></td>
+    <td><input name="Submit" type="submit" value="Submit"></td>
     <td><input name="Clear All" type="reset" value="Clear All"></td>
   </tr>
 </table></center>

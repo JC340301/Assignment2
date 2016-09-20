@@ -141,7 +141,8 @@
 	margin:auto;
 }
 .content form td{
-	padding:2px 5px;
+	padding: 2px 5px;
+	font-weight: bold;
 }
 
 .catalog {
