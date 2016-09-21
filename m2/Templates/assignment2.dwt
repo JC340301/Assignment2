@@ -6,6 +6,7 @@
 <title>Untitled Document</title>
 <!-- TemplateEndEditable -->
 <!-- TemplateBeginEditable name="head" -->
+
 <!-- TemplateEndEditable -->
 <link href="../css/assignment2.css" rel="stylesheet" type="text/css">
 </head>
@@ -25,7 +26,7 @@
    <a href="../productlist2.html">Jeans</a>
   </div>
  </td>
- <td>Cafe'</td>
+ <td onclick="location.href='cafe.html'">Cafe'</td>
  <td onclick="location.href='events.html'">Events</td>
  <td>Forms
   <div>
