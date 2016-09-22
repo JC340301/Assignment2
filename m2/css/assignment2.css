@@ -6,7 +6,7 @@
 	border:3px solid black;
 	cursor:pointer;
 	margin:30px auto 25px auto;
-	width:700px;
+	width:80%;
 }
 #banner h1 {
 	font-size:72px;
@@ -28,9 +28,9 @@
 }
 
 #navbar {
-	margin: 25px auto;
+	margin:25px auto;
 	height:80px;
-	width:1280px;
+	width:100%;
 }
 #navbar td {
 	background-color:yellow;

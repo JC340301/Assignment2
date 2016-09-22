@@ -13,10 +13,10 @@
 
 <body background="../images/Background.png">
 <table id="banner" title="Click here to return to homepage" onclick="location.href='index.html'">
- <td width="25%"><img src="../images/FRIAS Logo.gif"/></td>
- <td width="75%">
-  <h1>The Kids Place</h1>
-  <p>Where you get stuff for those damn kids!</p>
+ <td width="20%"><img src="../images/FRIAS Logo.gif"/></td>
+ <td width="80%">
+  <h1>Sunshine KidsWear</h1>
+  <p>Summer wear and jeans collection for children</p>
  </td>
 </table>
 <table id="navbar">
