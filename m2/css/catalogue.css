@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+.catalogue {
+	margin:auto;
+}
+.catalogue td {
+	cursor:pointer;
+	height:400px;
+	padding:16px 16px;
+	text-align:center;
+	width:250px;
+}
+.catalogue td:hover {
+	background-color:#3FFCFF;
+	color:blue;
+	font-size:120%;
+}
+.catalogue img { 
+	border:1px solid black;
+	border-radius:2em;
+	margin:auto;
+	height:6cm;
+	width:5cm;
+}
