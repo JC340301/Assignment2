@@ -7,6 +7,7 @@
 	cursor:pointer;
 	margin:30px auto 25px auto;
 	width:80%;
+	max-width:1024px;
 }
 #banner h1 {
 	font-size:72px;
@@ -20,26 +21,26 @@
 #banner img {
 	display:block;
 	width:60%;
-	height:100%;
-	margin:0px 0px 0px auto;
+	min-width:75px;
+	margin:auto;
 }
 #banner td {
-	height:150px;
 }
 
 #navbar {
 	margin:25px auto;
-	height:80px;
 	width:100%;
+	border:1px solid black;
 }
 #navbar td {
 	background-color:yellow;
-	border:3px solid black;
+	border:2px solid black;
 	cursor:pointer;
 	font-size:32px;
 	font-weight:bold;
+	margin:auto;
 	text-align:center;
-	width:16%;
+	width:15%;
 }
 #navbar td:hover {
 	background-color:blue;
@@ -49,7 +50,6 @@
 	display:block;
 }
 #navbar div {
-	background-color:yellow;
 	color:black;
 	border:3px solid black;
 	display:none;
@@ -68,22 +68,6 @@
 #navbar a:hover {
 	background-color:blue;
 	color:white;
-}
-
-#homepage{
-	background-image:url(../images/Beach%20wear.png);
-	border:3px solid black;
-	height:369px;
-	margin:auto;
-	width:679px;
-}
-#homepage h1{
-	background-color:#FFEBB1;
-	border:3px dotted black;
-	margin:280px auto 0 auto;
-	padding:10px;
-	text-align:center;
-	width:500px;
 }
 
 
@@ -113,7 +97,6 @@
 	background-color:#FFEBB1;
 	border:1px solid black;
 	margin:25px auto;
-	min-height:300px;
 	width:80%;
 }
 .content h1 {
@@ -130,8 +113,8 @@
 	text-shadow:-1px -1px 0 black, -1px 1px 0 black, 1px -1px 0 black, 1px 1px 0 black;
 }
 .content img {
-	display:block;
-	margin:auto
+	margin:auto;
+	width:100%;
 }
 .content form {
 	background-color:#FFEBB1;
@@ -141,7 +124,7 @@
 	margin:auto;
 }
 .content form td{
-	padding: 2px 5px;
+	padding:2px 5px;
 	font-weight: bold;
 }
 
@@ -185,4 +168,50 @@
 	color:red;
 	font-size:36px;
 	font-weight:bold;
+}
+
+@media screen and (max-width: 1280px) {
+	#banner h1 {
+		font-size:68px;
+	}
+}
+@media screen and (max-width: 960px) {
+	#banner h1 {
+		font-size:50px;
+	}
+	#navbar td {
+		font-size:22px;
+	}
+}
+@media screen and (max-width: 720px) {
+	#banner h1 {
+		font-size:40px;
+	}
+	#navbar td {
+		font-size:17px;
+	}
+}
+@media screen and (max-width: 600px) {
+	#banner {
+		width:90%;
+	}
+	#banner h1 {
+		font-size:36px;
+	}
+}
+@media screen and (max-width: 480px) {
+	#banner {
+		width:99%;
+	}
+	#banner h1 {
+		font-size:22px;
+	}
+	#banner p {
+		font-size:10px;
+	}
+}
+@media screen and (max-width: 320px) {
+	body {
+		width:320px;
+	}
 }

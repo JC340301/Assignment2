@@ -49,24 +49,22 @@ table {
 	width:100%;
 }
 
-#t01 {
+#food-gallery {
 	border-bottom:3pt solid black;
 	width:80%;
 }
-#t01 th {
+#food-gallery th {
 	background-color:#E9D746;
 	border-radius:3em;
 	border-width:6px;
 	font-size:24px;
 }
-#t01 td {
+#food-gallery td {
 	width:33%;
-	height:150px;
 }
-#t01 img{
+#food-gallery img{
 	border:1px solid black;
 	width:100%;
-	height:100%;
 }
 
 
@@ -78,4 +76,5 @@ h4 {
 #friasmenu { 
 	display:block;
 	margin:10px auto;
+	width:60%;
 }  
