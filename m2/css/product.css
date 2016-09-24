@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+.product img {
+	float:left;
+	width:50%;
+}
+.product div {
+	float:right;
+	width:50%;
+	text-align:start;
+}
+.product h1 {
+	text-decoration:underline;
+	font-weight:bold;
+}
+.product h2 {
+	color:red;
+	font-size:36px;
+	font-weight:bold;
+}

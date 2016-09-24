@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+#events {
+	margin:auto;
+	width:100%;
+	table-layout:fixed;
+}
+#events table {
+	margin:auto;
+}
+#events img {
+	width:100%
+}
+#events p {
+	font-size:15px;
+	margin:0px 2px;
+}
+
+@media screen and (max-width: 719px) {
+	#events p {
+		font-size:13px;
+	}
+}
+@media screen and (max-width: 599px) {
+	#events p {
+		font-size:18px;
+	}
+	.row-odd, .row-even {
+		padding:10px 0px;
+		display:flex;
+	}
+	.row-odd {
+		flex-direction:column;
+	}
+	.row-even {
+		flex-direction:column-reverse;
+	}
+}
+@media screen and (max-width: 399px) {
+	#events p {
+		font-size:15px;
+	}
+}

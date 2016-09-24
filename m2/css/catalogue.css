@@ -2,24 +2,41 @@
 /* CSS Document */
 
 .catalogue {
-	margin:auto;
+	width:100%;
 }
 .catalogue td {
 	cursor:pointer;
-	height:400px;
-	padding:16px 16px;
+	padding:10px 16px;
 	text-align:center;
-	width:250px;
+	width:25%
 }
 .catalogue td:hover {
 	background-color:#3FFCFF;
 	color:blue;
-	font-size:120%;
 }
 .catalogue img { 
 	border:1px solid black;
 	border-radius:2em;
-	margin:auto;
-	height:6cm;
-	width:5cm;
+	width:100%;
+}
+
+@media screen and (max-width: 719px) {
+	.catalogue td {
+		display:inline-block;
+		width:43.5%;
+	}
+}
+@media screen and (max-width: 599px) {
+	.catalogue td {
+		width:42%;
+	}
+}
+@media screen and (max-width: 479px) {
+	.catalogue td {
+		padding:10px 0px;
+		width:98%;
+	}
+	.catalogue img {
+		width:70%;
+	}
 }

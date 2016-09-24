@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import url("contactus.css");
 /* CSS Document */
 
 body {
@@ -69,19 +70,6 @@ body {
 	color:white;
 }
 
-
-#contact-us {
-	background-color:white;
-	border:3px solid black;
-	margin:auto;
-	padding:5px;
-	text-align:start;
-}
-#contact-us td {
-	border:1px dotted black;
-	padding:10px;
-}
-
 #footer {
 	background-color:#FFEBB1;
 	border:1px solid black;
@@ -111,39 +99,13 @@ body {
 	text-align:center;
 	text-shadow:-1px -1px 0 black, -1px 1px 0 black, 1px -1px 0 black, 1px 1px 0 black;
 }
-.content img {
-	margin:auto;
-	width:100%;
-}
 .content form {
 	background-color:#FFEBB1;
 	padding:20px 10px;
 }
-.content table {
-	margin:auto;
-}
 .content form td{
 	padding:2px 5px;
 	font-weight: bold;
-}
-
-.product img {
-	float:left;
-	width:50%;
-}
-.product div {
-	float:right;
-	width:50%;
-	text-align:start;
-}
-.product h1 {
-	text-decoration:underline;
-	font-weight:bold;
-}
-.product h2 {
-	color:red;
-	font-size:36px;
-	font-weight:bold;
 }
 
 @media screen and (max-width : 1239px ){
@@ -229,6 +191,9 @@ body {
 	#navbar a {
 		font-size:20px;
 	}
+	.content {
+		width:100%;
+	}
 }
 @media screen and (max-width : 399px ){
 	body {
@@ -238,7 +203,7 @@ body {
 		font-size:22px;
 	}
 	#banner p {
-		font-size:10px;
+		font-size:12px;
 	}
 	#navbar td {
 		font-size:23.4px;
@@ -248,5 +213,4 @@ body {
 		font-size:18px;
 	}
 }
-@media screen and (max-width: 320px) {
-}
+@media screen and (max-width: 320px) {}

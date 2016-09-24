@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contact-us {
+	margin:auto;
+	padding:10px;
+}
+#contact-us img {
+	display:block;
+	margin:auto;
+	max-width:300px;
+	width:100%;
+}
+#contact-us table {
+	background-color:white;
+	border:3px solid black;
+	padding:5px;
+	text-align:start;
+}
+#contact-us table td {
+	border:1px dotted black;
+	padding:10px;
+}
+
+@media screen and (max-width: 719px) {
+	#contact-us td {
+		display:block
+	}
+	#contact-us td td {
+		display:table-cell;
+	}
+}
