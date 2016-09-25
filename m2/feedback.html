@@ -7,6 +7,7 @@
 <title>Feedback Form</title>
 <!-- InstanceEndEditable -->
 <!-- InstanceBeginEditable name="head" -->
+<link href="css/feedback-form.css" rel="stylesheet" type="text/css">
 <!-- InstanceEndEditable -->
 <link href="css/assignment2.css" rel="stylesheet" type="text/css">
 </head>
@@ -44,40 +45,42 @@
  </td>
 </table>
 <!-- InstanceBeginEditable name="Content" -->
-<div class="content" style="width:50%">
+<div class="content" id="feedback-form">
 <h1>Feedback Form</h1>
 <form action="feedback2.html">
  <table>
   <tr>
    <td>First Name*</td>
-   <td><input type="text" name="fname" maxlength="50" size="50" required></td>
+   <td><input type="text" name="fname" id="fname" maxlength="50" required autofocus></td>
   </tr>
   <tr>
    <td>Last Name*</td>
-   <td><input type="text" name="lname" maxlength="50" size="50" required></td>
+   <td><input type="text" name="lname" id="lname" maxlength="50" required></td>
   </tr>
   <tr>
    <td>E-mail*</td>
-   <td><input type="email" name="email" maxlength="50" size="50" required></td>
+   <td><input type="email" name="email" id="email" maxlength="50" required></td>
   </tr>
   <tr>
-   <td>Phone:</td>
-   <td><input type="text" name="phone" maxlength="15" size="15"></td>
+   <td>Phone</td>
+   <td><input type="text" name="phone" id="phone" maxlength="15"></td>
   </tr>
   <tr>
-   <td>Comments:</td>
+   <td>Comments</td>
    <td>
-    <textarea name="comments" maxlength="500" rows="12" cols="50" placeholder="Max. 500 caharcters"></textarea>
+    <textarea name="comments" id="comments" maxlength="500" rows="10" placeholder="Max. 500 caharcters"></textarea>
    </td>
   </tr>
   <tr>
    <td colspan="2">
-   <input name="followup" type="checkbox" value="followup"> I would like to receive an e-mail follow up<br><br><i>*Required fields</i>
+   <input name="followup" id="followup" type="checkbox" value="followup"> I would like to receive an e-mail follow up<br><br><i>*Required fields</i>
    </td>
   </tr>
   <tr>
-   <td><input type="reset" value="Clear All"></td>
-   <td><input type="submit" value="Submit"></td>
+   <td colspan="2">
+    <input type="reset" value="Clear All">
+    <input type="submit" value="Submit">
+   </td>
   </tr>
  </table>
 </form>

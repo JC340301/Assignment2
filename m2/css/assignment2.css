@@ -1,5 +1,4 @@
 @charset "utf-8";
-@import url("contactus.css");
 /* CSS Document */
 
 body {
@@ -33,7 +32,7 @@ body {
 
 #navbar {
 	margin:25px auto;
-	width:100%;
+	width:90%;
 }
 #navbar td {
 	background-color:yellow;
@@ -42,7 +41,7 @@ body {
 	font-size:32px;
 	font-weight:bold;
 	text-align:center;
-	width:16%;
+	width:15%;
 }
 #navbar td:hover {
 	background-color:blue;
@@ -99,118 +98,61 @@ body {
 	text-align:center;
 	text-shadow:-1px -1px 0 black, -1px 1px 0 black, 1px -1px 0 black, 1px 1px 0 black;
 }
-.content form {
-	background-color:#FFEBB1;
-	padding:20px 10px;
-}
-.content form td{
-	padding:2px 5px;
-	font-weight: bold;
-}
 
-@media screen and (max-width : 1239px ){
-	body {
-		width:960px
-	}
-	#banner h1 {
-		font-size:68px;
-	}
-	#navbar td {
-		font-size:28px;
-	}
+@media screen and (max-width : 1279px ){
+	body { width:960px }
+	#banner h1 { font-size:68px }
+	#navbar td { font-size:28px }
 }
 @media screen and (max-width : 959px ){
-	body {
-		width:720px
-	}
-	#banner h1 {
-		font-size:50px;
-	}
-	#navbar td {
-		font-size:25.4px;
-	}
+	body { width:720px }
+	#banner h1 { font-size:50px }
+	#navbar td { font-size:24px }
 	#navbar a{
 		font-size:20px;
 		padding:3px 5px;
 	}
 }
 @media screen and (max-width : 719px ){
-	body {
-		width:600px
-	}
-	body {
-		width:600px
-	}
-	#banner h1 {
-		font-size:40px;
-	}
-	#navbar td {
-		font-size:21.4px;
-	}
+	body { width:600px }
+	#banner h1 { font-size:40px }
+	#navbar td { font-size:20px }
 	#navbar a {
 		font-size:14.8px;
 		padding:3px 8px;
 	}
 }
 @media screen and (max-width : 599px ){
-	body {
-		width:480px
-	}
-	#banner {
-		width:90%;
-	}
-	#banner h1 {
-		font-size:36px;
-	}
-	#navbar td {
-		font-size:16.4px;
-	}
+	body { width:480px }
+	#banner { width:90% }
+	#banner h1 { font-size:36px }
+	#navbar td { font-size:16.4px }
 	#navbar a {
 		font-size:13px;
 		padding:3px;
 	}
 }
-@media screen and (max-width : 479px ){
-	body {
-		width:400px
-	}
-	#banner {
-		width:99%;
-	}
-	#banner h1 {
-		font-size:31px;
-	}
-	#banner p {
-		font-size:15px;
-	}
+@media screen and (max-width : 479px) {
+	body { width:400px }
+	#banner { width:90% }
+	#banner h1 { font-size:31px }
+	#banner p { font-size:15px }
 	#navbar td {
 		display:inline-block;
-		font-size:30.4px;
-		width:31.8%;
+		font-size:26px;
+		width:30%;
 	}
-	#navbar a {
-		font-size:20px;
-	}
-	.content {
-		width:100%;
-	}
+	#navbar a { font-size:20px }
+	.content { width:100% }
 }
 @media screen and (max-width : 399px ){
-	body {
-		width:320px
-	}
-	#banner h1 {
-		font-size:22px;
-	}
-	#banner p {
-		font-size:12px;
-	}
+	body { width:320px }
+	#banner h1 { font-size:22px }
+	#banner p { font-size:15px }
 	#navbar td {
-		font-size:23.4px;
-		width:31.4%;
+		font-size:22px;
+		width:31%;
 	}
-	#navbar a {
-		font-size:18px;
-	}
+	#navbar a { font-size:18px }
 }
 @media screen and (max-width: 320px) {}
