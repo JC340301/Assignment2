@@ -17,27 +17,16 @@
 }
 
 @media screen and (max-width: 719px) {
-	#events p {
-		font-size:13px;
-	}
+	#events p { font-size:13px }
 }
 @media screen and (max-width: 599px) {
-	#events p {
-		font-size:18px;
-	}
-	.row-odd, .row-even {
-		padding:10px 0px;
-		display:flex;
-	}
-	.row-odd {
-		flex-direction:column;
-	}
-	.row-even {
-		flex-direction:column-reverse;
-	}
+	#events p { font-size:18px }
+	#events img { padding:10px 0px }
+	#events tr { display:flex }
+	#events tr tr { display:table-row }
+	#events tr:nth-child(odd) { flex-direction:column }
+	#events tr:nth-child(even) { flex-direction:column-reverse }
 }
 @media screen and (max-width: 399px) {
-	#events p {
-		font-size:15px;
-	}
+	#events p { font-size:15px }
 }

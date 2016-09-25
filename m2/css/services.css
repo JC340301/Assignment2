@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+#services { max-width:900px }
+#services td:first-child { width:50% }
+#services img {
+	padding:10px 2.5%;
+	width:95%
+}
+#services li {
+	padding:0px 5px;
+	text-align:justify
+}
+#services p {
+	margin:auto;
+	text-align:center;
+	width:60%
+}
+
+@media screen and (max-width: 719px) {
+	#services td:first-child { width:100% }
+	#services tr:nth-child(odd) {
+		display:flex;
+		flex-direction:column-reverse
+	}
+	#services p {
+		padding:0px 2.5%;
+		text-align:justify;
+		width:95%
+	}
+}
