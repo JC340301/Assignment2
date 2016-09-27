@@ -1,19 +1,24 @@
 @charset "UTF-8";
 
-table {
-	border-collapse: separate;
-	border-spacing: 15px 15px; 
-	
+#cafe table {
+	border-spacing: 15px 15px;
+	width: 100%
+}
+#cafe h4 { 
+	text-align: center; font-size:36px; border-bottom: 2px solid #000000;
 }
 
-#cafe-info {
-	padding-left: 40px;padding-right:40px; border: 3px dashed #303FA8; text-align: justify; vertical-align:middle; font-size:18px; border-radius: 3em; 
+#cafe-info td:first-child { width: 30% }
+#cafe-info img { width: 100% }
+#cafe-info td:nth-child(2) {
+	padding: 0px 40px;
+	border: 3px dashed #303FA8;
+	text-align: justify;
+	font-size:18px;
+	border-radius: 3em;
 }
 
-#promotion {
-	table-layout:fixed;
-	width:100%;
-}
+#promotion { table-layout:fixed }
 #promotion th { 
 	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color:#E60C10;
@@ -23,58 +28,38 @@ table {
 	font-size:38px;
 	background-color:#E8FC4E;
 }
-#promotion-headings td { 
+#promotion tr:nth-child(2) { 
 	text-align:center;
 	font-style:oblique;
 	font-size:24px;
 	color:#E70A1A; 
 	font:bold;
 }
-#promotion-content td {
-	font:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+#promotion tr:nth-child(3) td {
+	font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	border:1px solid black;
 	border-radius:1em;
-	text-align:justify;
+	text-align:center;
 	padding:0px 25px;
-	font-size:24px;
+	font-size:20px;
 	background-color:#EDAA74;
 }
-#promotion-content li { 
-	font-size:18px;
-	padding:0px 5px;
-	text-align:justify;
-    text-justify: inter-word;
-}
-#promotion-content img {
-	width:100%;
-}
+#promotion tr:nth-child(3) img { width:100% }
 
-#food-gallery {
-	border-bottom:3pt solid black;
-	width:80%;
-}
+#food-gallery { border-bottom:3pt solid black }
 #food-gallery th {
 	background-color:#E9D746;
 	border-radius:3em;
 	border-width:6px;
 	font-size:24px;
 }
-#food-gallery td {
-	width:33%;
-}
 #food-gallery img{
 	border:1px solid black;
 	width:100%;
 }
 
-
-h4 { 
-	text-align: center; font-size:36px; border-bottom: 2px solid #000000;	 
-}
-
-
 #friasmenu { 
 	display:block;
-	margin:10px auto;
-	width:60%;
+	margin: 20px auto;
+	width: 90%;
 }  
