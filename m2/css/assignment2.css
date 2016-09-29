@@ -126,7 +126,7 @@ body {
 	body { width:480px }
 	#banner { width:90% }
 	#banner h1 { font-size:36px }
-	#navbar td { font-size:16.4px }
+	#navbar td { font-size:15px }
 	#navbar a {
 		font-size:13px;
 		padding:3px;
@@ -139,7 +139,7 @@ body {
 	#banner p { font-size:15px }
 	#navbar td {
 		display:inline-block;
-		font-size:26px;
+		font-size:23px;
 		width:30%;
 	}
 	#navbar a { font-size:20px }
@@ -150,7 +150,7 @@ body {
 	#banner h1 { font-size:22px }
 	#banner p { font-size:15px }
 	#navbar td {
-		font-size:22px;
+		font-size:20px;
 		width:31%;
 	}
 	#navbar a { font-size:18px }
