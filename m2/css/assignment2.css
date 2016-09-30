@@ -11,22 +11,17 @@ body {
 	border:3px solid black;
 	cursor:pointer;
 	margin:30px auto 25px auto;
+	text-align:center;
 	width:80%;
-	max-width:1024px;
+	max-width:730px;
 }
-#banner h1 {
-	font-size:72px;
-	margin:0px;
-	text-align:center;
-}
-#banner p {
-	margin:0px;
-	text-align:center;
-}
+#banner h1, p { margin:0px }
+#banner h1 { font-size:72px }
+#banner p { font-size:32px }
 #banner img {
 	display:block;
-	width:60%;
-	min-width:75px;
+	width:100%;
+	min-width:90px;
 	margin:auto;
 }
 
@@ -102,6 +97,7 @@ body {
 @media screen and (max-width : 1279px ){
 	body { width:960px }
 	#banner h1 { font-size:68px }
+	#banner p { font-size: 22px }
 	#navbar td { font-size:28px }
 }
 @media screen and (max-width : 959px ){
@@ -116,6 +112,7 @@ body {
 @media screen and (max-width : 719px ){
 	body { width:600px }
 	#banner h1 { font-size:40px }
+	#banner p { font-size:18px }
 	#navbar td { font-size:20px }
 	#navbar a {
 		font-size:14.8px;
@@ -147,11 +144,11 @@ body {
 }
 @media screen and (max-width : 399px ){
 	body { width:320px }
-	#banner h1 { font-size:22px }
-	#banner p { font-size:15px }
+	#banner h1 { font-size:24px }
+	#banner p { font-size:16px }
 	#navbar td {
 		font-size:20px;
-		width:31%;
+		width:30%;
 	}
 	#navbar a { font-size:18px }
 }

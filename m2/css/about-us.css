@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+#about-us { max-width: 800px }
+#about-us td:first-child { width: 40% }
 #about-us img { width:100% }
 #about-us p { text-align:center }
 

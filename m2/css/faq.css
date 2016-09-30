@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+#faq { max-width: 800px }
+#faq p {
+	text-align: start;
+	margin-bottom: 15px
+}

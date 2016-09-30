@@ -5,26 +5,25 @@
 	background-image:url(../images/Beach%20wear.png);
 	border:3px solid black;
 	margin:auto;
-	max-width:675px;
+	max-width:679px;
+	max-height:369px
 }
-#homepage h1{
+#homepage div {
 	background-color:#FFEBB1;
 	border:3px dotted black;
-	margin:280px auto 25px auto;
+	margin:265px auto 25px auto;
 	padding:10px;
 	text-align:center;
 	width:80%;
 }
+#homepage h1, p { display:inline }
 
-@media screen and (max-width: 600px) {
-	#homepage h1{
-		font-size:31px;
-	}
+@media screen and (max-width: 599px) {
+	#homepage h1 { font-size:31px }
 }
-@media screen and (max-width: 480px) {
-	#homepage h1{
-		font-size:22px;
-	}
+@media screen and (max-width: 479px) {
+	#homepage h1 { font-size:22px }
+	#homepage p { font-size:13px }
 }
 @media screen and (max-width: 320px) {
 }

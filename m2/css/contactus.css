@@ -1,7 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 
-#contact-us {
+#contact-us { max-width: 750px }
+#contact-us table {
 	margin:auto;
 	padding:10px;
 }
@@ -11,13 +12,13 @@
 	max-width:300px;
 	width:100%;
 }
-#contact-us table {
+#contact-us table table{
 	background-color:white;
 	border:3px solid black;
 	padding:5px;
 	text-align:start;
 }
-#contact-us table td {
+#contact-us table table td {
 	border:1px dotted black;
 	padding:10px;
 }
