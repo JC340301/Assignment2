@@ -21,6 +21,16 @@
 	width:30%;
 }
 
+#thank-you {
+	max-width: 800px;
+	width: 50%
+}
+#thank-you img {
+	display:block;
+	margin:auto;
+	width:50%
+}
+
 @media screen and (max-width: 599px) {
 	#feedback-form td {
 		font-size:14px;
