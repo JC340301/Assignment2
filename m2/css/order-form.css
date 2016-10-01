@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+#order-form form {
+	padding: 0 2.5%;
+	width:95%
+}
+
+#order-form table {
+	border: 1px solid;
+	margin: 25px 0;
+}
+#order-form table tr th:first-child { width: 40% }
+#order-form table tr th:not(:first-child) { width: 12% }
+#order-form table tr:nth-child(-n+17) td { border: 1px solid }
+#order-form table tr td select { width: 100% }
+#order-form table tr td input {
+	display:block;
+	margin:auto;
+	text-align:center;
+	width:90%
+}
+#order-form table tr td:nth-child(n+5) input, #order-form table tr:nth-child(18) td:nth-child(3) input {
+	background:none;
+	border:none;
+	color:black;
+}
